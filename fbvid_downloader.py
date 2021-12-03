@@ -26,9 +26,9 @@ def download(k):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='An script to download videos from facebook.')
-    parser.add_argument('-u', '--url', type=str, nargs='+', help='URL of an existed package')
-    parser.add_argument('-l', '--list', type=argparse.FileType('r'), help='A file containing the videos URL (-l filename.txt)')
+    parser = argparse.ArgumentParser(description='A simple Python +3.x script to download videos from Facebook posts.')
+    parser.add_argument('-u', '--url', type=str, nargs='+', help='URL of the video')
+    parser.add_argument('-l', '--list', type=argparse.FileType('r'), help='A file containing the videos URLs (-l filename.txt)')
     args = parser.parse_args()
 
     if args.list is not None:
