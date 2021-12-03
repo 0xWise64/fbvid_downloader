@@ -41,4 +41,4 @@ if __name__ == '__main__':
             k = i.strip()
             download(k)
     else:
-        print("- You didn't pass any argument (help: python3 fbvid_downloader -h).")
+        print("- You didn't pass any argument (help: python3 fbvid_downloader.py -h).")
