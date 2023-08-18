@@ -1,6 +1,6 @@
-# Facebook Video Downloader
+# Facebook Video Downloader (Outdated)
 
-- A simple Python +3.x script to download videos from Facebook posts.
+**NOTE: As of a Facebook update that occurred within two weeks after the publication of this tool, it is no longer functioning correctly. I'm currently not maintaining this tool, so please be aware that the code provided here is outdated and not working.**
 
 # Setup and Usage
 
